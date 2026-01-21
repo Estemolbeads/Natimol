@@ -41,11 +41,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const phone = document.getElementById('phone').value;
  
         const subject = `Order for: ${selectedProduct}`;
-       
         const body = `
            Hello Estemolbeads store,
 
-           I would lie to place an order for th followin items;
+           I would like to place an order for the following items;
 
            Product: ${selectedProduct}
            Price: ${selectedPrice}
@@ -73,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         
     
+
 
 
 
