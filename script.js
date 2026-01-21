@@ -39,8 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const email = document.getElementById('email').value;
         const address = document.getElementById('address').value;
         const phone = document.getElementById('phone').value;
-
-        const subject = `Order for: ${selectedProductPrice}`;
+ 
+        const subject = `Order for: ${selectedProduct}`;
+       
         const body = `
            Hello Estemolbeads store,
 
@@ -72,6 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         
     
+
 
 
 
