@@ -1,0 +1,78 @@
+
+document.addEventListener('DOMContentLoaded', function () {
+    const buyButtons = document.querySelectorAll(".buy-now-btn");
+    const purchaseForm = document.getElementById("purchaseForm");
+    const thankYou = document.getElementById("thankYou");
+    const selectedProductImage = document.getElementById("selectedProductImage");
+    const selectedProductName = document.getElementById("selectedProductName");
+    const selectedProductPrice = document.getElementById("selectedProductPrice");
+    const checkoutForm = document.getElementById("checkoutForm");
+
+    let selectedProduct = '';
+    let selectedPrice = '';
+    let selectedImage = '';
+
+    // Buy Now buttons
+    buyButtons.forEach(buttons => {
+        buttons.addEventListener("click", function () {
+            selectedProduct = this.getAttribute("data-product");
+            selectedPrice = this.getAttribute("data-price");
+            selectedImage = this.getAttribute("data-image");
+
+            // Update form with product details
+            selectedProductImage.src = selectedImage;
+            selectedProductImage.alt = selectedProduct;
+            selectedProductName.textContent = selectedProduct;
+            selectedProductPrice.textContent = `Price: $${selectedPrice}`;
+
+            // Show form
+            purchaseForm.style.display = 'block';
+            purchaseForm.scrollIntoView({behaviour: "smooth"});
+        });
+      });
+
+      // Handle form submission
+      checkoutForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const address = document.getElementById('address').value;
+        const phone = document.getElementById('phone').value;
+
+        const subject = `Order for: ${selectedProductPrice}`;
+        const body = `
+           Hello Estemolbeads store,
+
+           I would lie to place an order for th followin items;
+
+           Product: ${selectedProduct}
+           Price: ${selectedPrice}
+
+
+           My details:
+           -Name: ${name}
+           -Email: ${email}
+           -Shipping Address: ${address}
+           -Phone: ${phone}
+
+           Please process my order and let me know the  next steps.
+           `.trim();
+
+           const mailtoLink = `mailto:kupheybeads@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+           window.location.href = mailtoLink;
+
+           purchaseForm.style.display = 'none';
+           thankYou.style.display = 'block';
+           thankYou.scrollInvoice({ behaviour:"smooth" });
+      });
+    });
+
+
+        
+    
+
+
+
+
