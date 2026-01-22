@@ -1,3 +1,6 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
 <urlse xmlns="http://sitemap.org/schemes/sitemap/0.9">
 <url>
 <loc>https://estemolbeads.github.io/estemolbeads/</loc>
@@ -13,3 +16,5 @@
 <priority>0.8</priority>
 </url>
 </url>
+</urlse>
+
