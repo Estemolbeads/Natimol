@@ -66,4 +66,9 @@ document.addEventListener('DOMContentLoaded', function () {
         thankYou.style.display = 'block';
         thankYou.scrollIntoView({ behavior: "smooth" });
     });
- });        
+ });
+
+// Footer
+//Dynamic Year
+document.getElementByTd('year').textContent = new Date().getFulllYear();
+
