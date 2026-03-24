@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
           selectedProductImage.src = selectedImage;
           selectedProductImage.alt = selectedProduct;
           selectedProductName.textContent = selectedProduct;
-          selectedProductPrice.textContent = `Price: $${selectedPrice}`;
+          selectedProductPrice.textContent = `Price: GH¢${selectedPrice}`;
 
           //Show form
           purchaseForm.style.display = 'block';
