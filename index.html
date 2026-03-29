@@ -76,12 +76,24 @@
 
     <!-- Header -->
     <header>
-        <h1>EstemolBeads</h1>
-        <nav>
+        
+      <a href="index.html"><span>EstemolBeads</span></a>
+
+      
+          <!-- Burger Icon -->
+      <div class="burger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+<div class="nav-main">
+
+<nav>
             <a href="product.html">Products</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
-          </nav>
+      </nav>
+
+</div>
+      
     </header>
 
     <!-- Hero Section -->
@@ -93,7 +105,18 @@
         </div>
     </section>
 
+    <!-- PROMO -->
+    <div class="promo-overlay" id="promo">
   
+  <div class="promo-box">
+      <span class="close-button" onclick="closePromo()">X</span> 
+      
+      <img src="image/website ad flyer.jpeg" loading="lazy" fetchpriority="high"  alt="Promo">
+  </div>
+
+</div>
+  
+<!-- email popup -->
       <div id="mc_embed_shell" class="popup-container"  style="display:none;">
       <!-- <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css"> -->
   <style type="text/css">       
@@ -103,7 +126,7 @@
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 
-    background: url('image/waistbeads.jpg');;
+    background: url("image/EB\ Necklace\ 002.jpeg");;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -977,7 +1000,8 @@
     </footer>
 
   <script src="popupscript.js"></script>
-
+  <script src="burgericon.js"></script>
+  
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const closeBtn = document.querySelector(".close-popup");
