@@ -21,15 +21,20 @@
 <body>
 
      <header>
- <h1>EstemolBeads</h1>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="#"> Necklace </a>
-    <a href="#"> Waistbeads </a>
-    <a href="#"> Handbeads </a>
-    <a href="#"> Customized hand beads </a>
-</nav>
-    </header>
+  <a href="index.html"><span>EstemolBeads</span></a>
+ <!-- Burger Icon -->
+      <div class="burger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+
+    <nav class="nav-main">
+        <a href="index.html">Home</a>
+        <a href="#"> Necklace </a>
+        <a href="#"> Waistbeads </a>
+        <a href="#"> Handbeads </a>
+        <a href="#"> Customized hand beads </a>
+   </nav>
+  </header>
 
     <div class="products-container">
 
@@ -207,7 +212,7 @@
     border-radius: 8px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 
-    background: url('image/waistbeads.jpg');;
+    background: url("image/EB\ Necklace\ 002.jpeg");;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1072,7 +1077,7 @@
     </footer>
 
 <script src="script.js"></script>
-
+ 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const closeBtn = document.querySelector(".close-popup");
@@ -1086,7 +1091,9 @@
 });
 </script>
 
-<script src="productpopupscript.js"></script>  
+<script src="productpopupscript.js"></script>
+<script src="burgericon.js"></script>
+  
 
 </body>
 </html>
