@@ -2,17 +2,27 @@
 <html lang="en">
 <head>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQB0G72LTX"></script>
+
+   <!-- Google tag (gtag.js) -->
 <script>
+
+     function loadAnalytics(){
+     var gtaScript= document.createElement("script")
+     gtaScript.src="https://www.googletagmanager.com/gtag/js?id=G-YQB0G72LTX">
+     gtaScript.async-true;
+     document.head.appendChild(gtaScript);
+
+  gtaScript.onload = function() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-YQB0G72LTX');
+  }
+}
+
 </script>
 
-    
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Estemolbeads</title>
@@ -102,7 +112,7 @@
 
 <nav>
             <a href="product.html">Products</a>
-            <a href="#about">About</a>
+            <a href="about.html">About</a>
             <a href="contact.html">Contact</a>
       </nav>
 
@@ -959,6 +969,22 @@
     </section>
 </main>
 
+<div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-content">
+    <p>
+      We use cookies to improve your experience and analyze traffic.
+      You can accept or manage your preferences.
+      </p>
+
+     <div class="cookie-buttons">
+      <button id="accept-btn" class="btn-accept">Accept All</button>
+      <button id="decline-btn" class="btn-decline">Decline</button>
+     </div>
+  </div>
+</div>
+
+  
+
 
 <!-- <footer id="contact">
         <p>Contact Us: kupheybeads@gmail.com.com | Phone: +233 246468649</p>
@@ -1013,8 +1039,10 @@
         </div>
     </footer>
 
+  <script src="cookie.js"></script>
   <script src="popupscript.js"></script>
   <script src="burgericon.js"></script>
+ 
   
 <script>
   document.addEventListener("DOMContentLoaded", function() {
