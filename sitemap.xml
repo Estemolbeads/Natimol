@@ -21,7 +21,7 @@
     <!-- SEO Meta Tags -->
     <meta name="description" content="EstemolBeads is a Ghana-based handmade jewelry brand specializing in custom beaded necklaces, waist beads, bracelets, anklets, rings, and personalized bead accessories. With over 10 years of experience, we create high-quality, durable, and stylish bead jewelry designed for everyday wear, special occasions, and gifting. "/>
     <meta name="keywords" content="handmade beads, beaded jewelry Ghana, waist beads, beaded necklaces, custom beads, handmade jewelry brand, bead accessories, African bead jewelry, EstemolBeads" />
-    <meta property="og:image" content="https://estemolbeads.github.io/Natimol/image/EB Bangle 001.jpeg"> 
+    <meta property="og:image" content="https://estemolbeads.github.io/Natimol/image/NewLOGO.jpeg"> 
     <meta property="og:url" content="https://estemolbeads.github.io/Natimol">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="EstemolBeads">
@@ -90,7 +90,7 @@
    <main>
     <!-- Header -->
     <header>
-     <img src="image/New LOGO.jpeg" alt="EstemolBeads logo" class="brand">
+     <img src="image/NewLOGO.jpeg" alt="EstemolBeads logo" class="brand">
      <h1>EstemolBeads</h1>
         
       <!-- <a class="brandname" href="index.html"><span>EstemolBeads</span></a> -->
