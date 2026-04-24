@@ -30,7 +30,7 @@
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="EstemolBeads| Simply creativity">
     <meta property="og:description" content="EstemolBeads is a Ghana-based handmade jewelry brand specializing in custom beaded necklaces, waist beads, bracelets, anklets, rings, and personalized bead accessories. With over 10 years of experience, we create high-quality, durable, and stylish bead jewelry designed for everyday wear, special occasions, and gifting.">
-    <meta property="og:image" content="https://estemolbeads.github.io/Natimol/image/EB Bangle 001.jpeg">
+    <meta property="og:image" content="https://estemolbeads.github.io/Natimol/image/EBBangle001.jpeg">
     <meta property="og:url" content="https://estemolbeads.github.io/Natimol">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="EstemolBeads">
@@ -49,6 +49,7 @@
       "name": "EstemolBeads",
       "description": "EstemolBeads is a Ghana-based handmade jewelry brand specializing in custom beaded necklaces, waist beads, bracelets, anklets, rings, and personalized bead accessories. With over 10 years of experience in bead craftsmanship, we create high-quality, durable, and stylish bead jewelry designed for everyday wear, special occasions, and meaningful gifting.",
       "url": "https://estemolbeads.github.io/Natimol",
+      "logo": "https://estemolbeads.github.io/Natimol/image/NewLOGO.jpeg"
       "telephone": "+1eq",
       "address": {
         "@type": "PostalAddress",
