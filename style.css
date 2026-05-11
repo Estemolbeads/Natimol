@@ -399,7 +399,7 @@
         font-size: x-small;
         }
     
-        @media (max-width: 768px) {
+        @media (max-width:768px) {
 
         .nav-main{
         display:none;
