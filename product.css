@@ -22,6 +22,18 @@ body{
 }
 
 
+header {
+            background: #111;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
 
 
  header a {
@@ -31,6 +43,14 @@ body{
             font-size: 30px;
             font-weight: bold;
         }
+
+         /* Hide burger CSS*/
+           .burger {
+            display: none;
+            font-size: 26px;
+            cursor: pointer;
+            z-index: 200; /* stays above header */
+         }
 
 
 .container {
@@ -471,7 +491,7 @@ margin-bottom: 20px;
 
  /* Responsive Styles */
 
-        @media (max-width: 768px) {
+        @media (max-width:768px) {
 
         .nav-main{
         display:none;
