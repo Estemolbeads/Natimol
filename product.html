@@ -2,46 +2,53 @@
 <html lang="en">
 <head>
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQB0G72LTX"></script>
+   <!-- Google tag (gtag.js) -->
 <script>
+
+     function loadAnalytics(){
+     var gtaScript= document.createElement("script")
+     gtaScript.src="https://www.googletagmanager.com/gtag/js?id=G-YQB0G72LTX">
+     gtaScript.async-true;
+     document.head.appendChild(gtaScript);
+
+  gtaScript.onload = function() {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-YQB0G72LTX');
+  }
+}
+
 </script>
 
 
-</script>
-
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estemolbeads | Authentic African Waist Beads for Weight Loss & Fashion </title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials." />"/>
+    <meta name="description" content="Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials.">
     <meta name="keywords" content="Ghana waist beads, african waist beads, Waist beads for weight loss tracking, waist beads pictures, Custom waist beads for women, authentic custom beads, beads necklace, Plus size waist beads, Belly beads, Waist beads for weight loss tracking, bead accessories,
      Belly beads, Glass waist beads with charms, Stretch elastic waist beads, Gold and crystal belly chains, Evil eye protection waist beads, Waist beads for weight loss tracking, Belly beads for bloating awareness, Non-stretch waist beads for fitness, Waist beads to track inches lost, Waist jewelry for posture correction, 
      What do red waist beads mean?, Crystal waist beads for manifesting, Spiritual meaning of African waist beads, Waist beads for self-love and femininity, Chakra balancing waist beads, Plus size African waist beads, Custom length waist beads for all bodies, How to measure for waist beads at home,  Waist beads for curvy women,
-    Tie-on vs clasp waist beads, Waist beads for bikini and beachwear, Boho body jewelry for festivals, Handmade Ghanaian jewelry for summer, Under-clothing waist beads for secret confidence, Layering waist beads for aesthetic."/>
+    Tie-on vs clasp waist beads, Waist beads for bikini and beachwear, Boho body jewelry for festivals, Handmade Ghanaian jewelry for summer, Under-clothing waist beads for secret confidence, Layering waist beads for aesthetic." >
     <meta property="og:image" content="https://estemolbeads.github.io/Natimol/images/NewLOGO.jpeg">
     <meta property="og:url" content="https://estemolbeads.github.io/Natimol">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="EstemolBeads">
     
+    
      
     <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="Estemolbeads | Authentic African Waist Beads for Weight Loss & Fashion ">
-    <meta property="og:description" content="Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials." />">
+    <meta property="og:description" content="Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials.">
     <meta property="og:image" content="https://estemolbeads.github.io/Natimol/images/NewLOGO.jpeg">
     <meta property="og:url" content="https://estemolbeads.github.io/Natimol">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="EstemolBeads">
     
     <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image" >
     <meta name="twitter:title" content="EstemolBeads| Simply creativity">
     <meta name="twitter:description" content="EstemolBeads is a Ghanabeaded necklaces, waist beads, bracelets, anklets, rings, and personalized bead accessories. With over 10 years of experience, we create high-quality, durable, and stylish bead jewelry designed for everyday wear, special occasions.">
     <meta name="twitter:image" content="">
@@ -52,7 +59,7 @@
       "@context": "https://schema.org",
       "@type": "Beads",
       "name": "EstemolBeads",
-      "description": "Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials."/>,
+      "description": "Estemol Beads offers luxury handmade waist beads in Ghana. Explore African waist beads, crystal waist beads, custom body beads, belly chains, and fashionable bead accessories for women. Affordable, stylish, and handcrafted with quality materials",
       "url": "https://estemolbeads.github.io/Natimol/index.html",
       "logo": "https://estemolbeads.github.io/Natimol/images/NewLOGO.jpeg",
       "image": "https://estemolbeads.github.io/Natimol/images/NewLOGO.jpeg",
@@ -90,7 +97,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beads</title>
 
-  <link rel="stylesheet" href="style.css">
+
 <!-- CSS -->
  <link rel="stylesheet" href="product.css">
 
@@ -105,9 +112,10 @@
 </head>
 <body>
 
-     <header>
+    
+    <header>
   <a href="index.html"><span>EstemolBeads</span></a>
- <!-- Burger Icon -->
+   <!-- Burger Icon -->
       <div class="burger" onclick="toggleMenu()">
         <i class="fas fa-bars"></i>
       </div>
